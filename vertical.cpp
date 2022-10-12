@@ -2,14 +2,14 @@
 #include <math.h>
 #include <conio.h>
 using namespace std;
-//adakwdko
+//adak
 double x, f, t, T, v0, v, c, A, aX, aY, p, m, l, h, g = 9.80665, L = 1000;
 double pi = (4 * atan(1));
 
 double popravka() {
     double alpha1 = 0, alpha2 = 45 * pi / 180, mid, hCur=0;
     double vX, vY, h = 0, hTarget = -5;
-
+    //ff
     while (abs(hTarget - hCur) > 0.01) {
         mid = (alpha1 + alpha2) / 2;
         vX = v0 * cos(mid);
