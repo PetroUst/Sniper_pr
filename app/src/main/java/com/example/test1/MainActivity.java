@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         } catch (Exception e) {
 
-            textView_sum.setText("Неверные входные данные для расчета!");
+            textView_sum.setText("Некоректно введені дані!");
 
         }
 
